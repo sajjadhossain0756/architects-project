@@ -38,7 +38,7 @@
     color: white;
 }
 /* header styles  */
-header{
+header, .footer-section{
     background-color: #fff4e7;
 }
 /* nav styles start here */
@@ -179,7 +179,7 @@ header{
 }
 /* sponsor section styles start here */
 .sponsor-section{
-    margin: 30px 120px;
+    margin: 70px 120px;
 }
 .sponsor-content{
     text-align: center;
@@ -202,6 +202,14 @@ header{
     width: 100%;
     filter: grayscale(100%);
 }
+/* footer styles start here */
+.footer-section{
+    margin: 40px 120px 0px 120px;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+}
 
 /* responsive design for mobile phone */
 @media screen and (max-width:576px) {
@@ -210,6 +218,7 @@ header{
         flex-direction: column;
         margin: 0px 20px;
         gap: 20px;
+        
     }
     /* hero-image style start here */
     .hero-image-section{
@@ -251,6 +260,10 @@ header{
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
     }
+    .footer-section{
+        margin:30px 0px 0px 0px;
+    }
+    
 }
 /* responsive design for medium or tablet device  */
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -287,4 +300,7 @@ header{
     .sponsor-section{
         margin: 20px 50px;
      }
+     .footer-section{
+        margin:30px 0px 0px 0px;
+    }
 }
