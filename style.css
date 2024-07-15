@@ -177,25 +177,50 @@ header{
 .feature-image img{
     width: 100%;
 }
+/* sponsor section styles start here */
+.sponsor-section{
+    margin: 30px 120px;
+}
+.sponsor-content{
+    text-align: center;
+    max-width: 500px;
+    margin: 40px auto;
+}
+.sponsor-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sponsor-images{
+    gap: 30px;
+    justify-content: space-between;
+}
+.sponsor-image{
+    max-width: 130px;
+}
+.sponsor-image img{
+    width: 100%;
+    filter: grayscale(100%);
+}
 
 /* responsive design for mobile phone */
 @media screen and (max-width:576px) {
     /* nav styles start here */
     .navbar{
         flex-direction: column;
-        margin: 0px 10px;
+        margin: 0px 20px;
         gap: 20px;
     }
     /* hero-image style start here */
     .hero-image-section{
-        margin: 0px 10px;
+        margin: 0px 20px;
     }
     .hero-content .hero-title{
         font-size: 35px;
     }
     /* our-teams section start here */
     .our-teams-section{
-       margin: 20px 10px;
+       margin: 20px;
     }
     .our-teams-container{
        flex-direction: column;
@@ -205,17 +230,26 @@ header{
     .feature-section{
        flex-direction: column;
        gap: 30px;
-       margin: 20px 20px;
+       margin: 20px;
     }
     .feature-title{
         font-size: 35px;
     }
     .feature-btn{
-        margin: 20px 0px 0px 0px;
+        margin: 20px auto;
         padding: 20px 15px;
     }
     .feature-cards{
         margin: 20px 0px 20px 0px;
+    }
+    /* sponsor section styles start here */
+    .sponsor-section{
+       margin: 20px;
+    }
+    .sponsor-images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
     }
 }
 /* responsive design for medium or tablet device  */
@@ -249,5 +283,8 @@ header{
         gap: 30px;
         margin: 20px 50px;
      }
-    
+    /* sponsor section styles start here */
+    .sponsor-section{
+        margin: 20px 50px;
+     }
 }
