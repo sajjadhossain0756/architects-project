@@ -1,0 +1,67 @@
+/* google fonts import links */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+/* universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-flex{
+    display: flex;
+}
+.dark-1{
+    color: #5a5857;
+}
+/* header styles  */
+header{
+    background-color: #fff4e7;
+}
+/* nav styles start here */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px;
+    padding: 25px 0px;
+}
+.navbar-brand{
+    font-size: 45px;
+    font-weight: 700;
+}
+.navbar-nav{
+    gap: 35px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5a5857;
+}
+
+/* responsive design for mobile phone */
+@media screen and (max-width:576px) {
+    /* nav styles start here */
+    .navbar{
+        flex-direction: column;
+        margin: 0px 10px;
+        gap: 20px;
+    }
+    
+}
+/* responsive design for medium or tablet device  */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* nav styles start here */
+    .navbar{
+        flex-direction: column;
+        margin: 0px 50px;
+        gap: 20px;
+    }
+    
+}
