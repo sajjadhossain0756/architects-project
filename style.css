@@ -132,6 +132,51 @@ header{
 .our-teams-btn{
     margin: 20px 0px;
 }
+/* feature section styles start here */
+.feature-section{
+    gap: 50px;
+    margin: 60px 120px;
+}
+.feature-content{
+    max-width: 500px;
+}
+.feature-title{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #ff900e;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.feature-cards{
+    margin: 20px 20px 20px 0px;
+}
+.feature-card{
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+.feature-card h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-btn{
+    margin-top: -60px;
+    margin-left: -45px;
+    padding: 35px 20px;
+}
+.feature-btn .link-style span{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.feature-image{
+    max-width: 520px ;
+}
+.feature-image img{
+    width: 100%;
+}
 
 /* responsive design for mobile phone */
 @media screen and (max-width:576px) {
@@ -156,6 +201,22 @@ header{
        flex-direction: column;
        padding: 20px;
     }
+    /* feature section styles start here */
+    .feature-section{
+       flex-direction: column;
+       gap: 30px;
+       margin: 20px 20px;
+    }
+    .feature-title{
+        font-size: 35px;
+    }
+    .feature-btn{
+        margin: 20px 0px 0px 0px;
+        padding: 20px 15px;
+    }
+    .feature-cards{
+        margin: 20px 0px 20px 0px;
+    }
 }
 /* responsive design for medium or tablet device  */
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -179,6 +240,14 @@ header{
      .our-teams-container{
         flex-direction: column;
         padding: 30px;
+     }
+     /* feature section styles start here */
+    .feature-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin: 20px 50px;
      }
     
 }
