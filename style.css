@@ -17,6 +17,23 @@
 .dark-1{
     color: #5a5857;
 }
+.dark-2{
+    color: #727272;
+}
+.primary-btn{
+    background-color: #ff900e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}
 /* header styles  */
 header{
     background-color: #fff4e7;
@@ -44,6 +61,38 @@ header{
     font-weight: 500;
     color: #5a5857;
 }
+/* hero-image section styles start here */
+.hero-image-section{
+    margin: 0px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 20px 0px;
+}
+.hero-content{
+    max-width: 780px;
+    text-align: center;
+}
+.hero-content .hero-title{
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 650px;
+    margin: 20px auto;
+}
+.hero-image{
+    max-width: 975px;
+}
+.hero-image img{
+    width: 100%;
+}
+.hero-btn{
+    margin: 20px 0px;
+}
 
 /* responsive design for mobile phone */
 @media screen and (max-width:576px) {
@@ -53,7 +102,13 @@ header{
         margin: 0px 10px;
         gap: 20px;
     }
-    
+    /* hero-image style start here */
+    .hero-image-section{
+        margin: 0px 10px;
+    }
+    .hero-content .hero-title{
+        font-size: 35px;
+    }
 }
 /* responsive design for medium or tablet device  */
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -62,6 +117,13 @@ header{
         flex-direction: column;
         margin: 0px 50px;
         gap: 20px;
+    }
+    /* hero-image style start here */
+    .hero-image-section{
+        margin: 0px 50px;
+    }
+    .hero-content .hero-title{
+        font-size: 55px;
     }
     
 }
