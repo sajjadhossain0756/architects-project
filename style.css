@@ -177,6 +177,38 @@ header, .footer-section{
 .feature-image img{
     width: 100%;
 }
+/* overview section styles start here */
+.overview-section{
+    margin: 30px 120px;
+}
+.overview-content{
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+.overview-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.overview-cards{
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.overview-card{
+    border: 2px solid #ff900e;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+.overview-number{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.overview-card p{
+    font-size: 20px;
+    font-weight: 600;
+}
 /* sponsor section styles start here */
 .sponsor-section{
     margin: 70px 120px;
@@ -251,6 +283,17 @@ header, .footer-section{
     .feature-cards{
         margin: 20px 0px 20px 0px;
     }
+    /* overview section styles start here */
+    .overview-section{
+       margin: 20px;
+    }
+    .overview-content{
+        text-align: center;
+    }
+    .overview-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
     /* sponsor section styles start here */
     .sponsor-section{
        margin: 20px;
@@ -295,6 +338,19 @@ header, .footer-section{
         align-items: center;
         gap: 30px;
         margin: 20px 50px;
+     }
+     /* overview section styles start here */
+    .overview-section{
+        margin: 30px 50px;
+     }
+     .overview-content{
+         text-align: center;
+         margin: 20px auto;
+     }
+     .overview-cards{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         gap: 20px;
      }
     /* sponsor section styles start here */
     .sponsor-section{
